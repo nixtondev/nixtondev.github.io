@@ -79,9 +79,3 @@ padding: 0;
 .text-shadow {
 text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
-
-@media(max-width:300px) {
-  .mobilmodalpad {
-    padding-left: none;
-  }
-}
