@@ -1,0 +1,40 @@
+html { font-family: sans-serif; }
+
+body {
+font-family: Monospace;
+color: inherit;
+font-size: inherit;
+background-color: #123;
+}
+
+#main {
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+}
+
+#hero a.ncov-link{
+	color: #58D68D;
+	text-decoration: none;
+	border-bottom: 1px dotted #58D68D;
+	letter-spacing: 0.2rem;
+}
+
+#hero a.ncov-link:hover, a.ncov-link:visited{
+	color: #27AE60;
+	text-decoration: none;
+	border-bottom: 1px solid #27AE60;
+}
+
+.hero-title{
+	text-shadow: 0 0 15px #FFF;
+	font-style: italic;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+
+#main hr.hero-intro{
+	width: 450px;
+	border: 1px dotted #00ff11;
+}
+
