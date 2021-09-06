@@ -33,6 +33,16 @@ ul {
   list-style: none;
 }
 
+#main {
+  width: 100%;
+}
+
+.hero {
+  float: right;
+  margin-right: 400px;
+  margin-top: 150px;
+}
+
 .port {
   padding: 1px;
   background-color: red;
