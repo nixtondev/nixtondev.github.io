@@ -83,7 +83,7 @@ if [[ $YesNo =~ ^[Yy]$ ]]; then
 
 /usr/bin/clear
 
-echo -e "Linux config system.";
+echo -e "Linux config system / Version:${V}";
 
 echo -e "Running";
 
