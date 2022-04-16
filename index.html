@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Nixtondev">
-  <meta name="copyright" content="Nixtondev">
+  <meta name="author" content="NixtonDev">
+  <meta name="copyright" content="NixtonDev">
   <meta name="robots" content="index, follow">
   <meta name="description" content="NIXTONDEV.COM - The home of a nerd">
   <meta name="google-site-verification" content="c3qLZJHncKaouh_qzp3Wx-OA-jk7Lg_Dm4pIHr2QmNY" />
@@ -46,7 +46,75 @@
 </script>
 </head>
 <body>
-Nixtondev.com
+    <main>
+    <div class="container py-4">
+      <header class="pb-3 mb-4 border-bottom">
+          <nav class="nav-net">
+               <span><i class="fa fa-home"></i> The home of a nerd|</span><!-- &#151;
+               <a href="/portfolio" class="navlink">Portfolio</a> |
+               <a href="/projekts" class="navlink">Projekts</a>
+-->
+          </nav>
+      </header>
+
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h2 class="display-5 text-shadow"><img src="/assets/imgs/hacker.png" class="pichacker" alt="Shadboy Logotype"> &#151; Shadboy</h2>
+          <hr>
+          <p class="col-md-8 fs-4 about">
+            I am an internet nerd & hacker and am a heavy linux user, Am <span class="age"></span> years old and live in Sweden.
+            Often does things in html, css, javascript, bash, python and PHP.
+          </p>
+          <button href="#" data-bs-toggle="modal" data-bs-target="#Modal" class="btn btn-success btn-lg" type="button">Donate to my work</button>
+          <p class="ncovid">
+            <a href="https://ncovid.nu/" title="NCOVID-2019">COVID-19 Statistics</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"><i class="bi bi-upc-scan"></i> Donate to my work?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="bitcoin-tab" data-bs-toggle="tab" data-bs-target="#bitcoin" type="button" role="tab" aria-controls="bitcoin" aria-selected="true"><span class="iconify" data-icon="cryptocurrency-btc" data-inline="false"></span> Bitcoin</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="ethereum-tab" data-bs-toggle="tab" data-bs-target="#ethereum" type="button" role="tab" aria-controls="ethereum" aria-selected="false"><span class="iconify" data-icon="cryptocurrency:eth" data-inline="false"></span> Ethereum</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="litecoin-tab" data-bs-toggle="tab" data-bs-target="#litecoin" type="button" role="tab" aria-controls="litecoin" aria-selected="false"><span class="iconify" data-icon="cryptocurrency:ltc" data-inline="false"></span> Litecoin</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane text-center fade show active" id="bitcoin" role="tabpanel" aria-labelledby="bitcoin-tab">
+                  <img src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=3EYDcLz1Lmedz3TvazAvjH64gdYoNHj8Vz">
+                  <br>How much bitcoin?<br> Donate how much you feel for.
+                </div>
+                <div class="tab-pane text-center fade" id="ethereum" role="tabpanel" aria-labelledby="ethereum-tab">
+                  <img src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=0x1bE0ca924580f22Ea4961B6a0f42428FF6049C1b">
+                  <br>How much Ethereum?<br> Donate how much you feel for.
+                </div>
+                <div class="tab-pane text-center fade" id="litecoin" role="tabpanel" aria-labelledby="litecoin-tab">
+                  <img src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=MPzkgsRPCbpdWogy4hd1irQQAkwRLCNVZS">
+                  <br>How much litecoin?<br> Donate how much you feel for.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+      <script>getCopy(' 2020');</script> &brvbar; <a href=""><i class="bi bi-envelope-fill"></i></a>
+    </footer>
+</main>
+   <script src="./assets/js/getage.js" charset="utf-8"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 </body>
