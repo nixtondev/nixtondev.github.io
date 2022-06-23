@@ -55,6 +55,7 @@
             The resource requested could not be found on this server!
           </p>
           <p>Document not found.</p>
+		  <p>You will be sent to the home page if <span id="sec"></span></p>
         </div>
       </div>
 
@@ -62,6 +63,32 @@
       <script>getCopy(' 2020');</script>
     </footer>
 </main>
+
+<script>
+var sec = 10;
+var val; 
+
+function redirect() {
+    document.location.href = 'https://nixtondev.com';
+}
+
+function updateSec() {
+    document.getElementById("sec").innerHTML = sec;
+    sec--;
+    if (sec == -1) {
+        clearInterval(val);
+        redirect();
+    }
+}
+
+function Timer() {
+    val = setInterval(function () {
+        updateSec()
+    }, 1000);
+}
+
+Timer();
+</script>
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
