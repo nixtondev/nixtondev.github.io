@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shadboy.me/sitemap.xml
+Sitemap: https://nixtondev.com/sitemap.xml
