@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nixtondev.com/sitemap.xml
+Sitemap: https://nixton.dev/sitemap.xml
