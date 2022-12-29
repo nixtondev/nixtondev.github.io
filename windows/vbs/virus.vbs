@@ -1,1 +1,0 @@
-x=msgbox("Error: What happened with the your computer? Let me tell you, It's hacked.",0,"Microsoft Windows 7")
