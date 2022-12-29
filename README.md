@@ -1,2 +1,14 @@
-<h1>nixtondev</h1>
-I'am heavy linux user, I like hack things, write code and building stuffs.
+ _____________
+< Linux Nerd >
+ -------------
+   \
+    \
+     \  .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+----------------
+   NIXTON.DEV
