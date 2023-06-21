@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nixton.dev/sitemap.xml
