@@ -1,16 +1,16 @@
 html{ 
-line-height: 1.4;
-font-family: sans-serif; 
-font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif; 
+    font-size: 1em;
 }
 
 body{
-font-family: Consolas, monaco, monospace;
-background-color: #eee;
+    font-family: Consolas, monaco, monospace;
+    background-color: #eee;
 }
 
 textarea{
-resize: vertical;
+    resize: vertical;
 }
 
 fieldset{
@@ -28,8 +28,8 @@ margin: 1em 0;
 padding: 0;
 }
 
-ul li {
-  list-image-style: none;
+ul {
+  list-style: none;
 }
 
 .text-shadow {
