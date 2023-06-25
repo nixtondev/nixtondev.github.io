@@ -14,18 +14,18 @@ textarea{
 }
 
 fieldset{
-border: 0;
-margin: 0;
-padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
-display: block;
-height: 1px;
-border: 0;
-border-top: 1px solid #ccc;
-margin: 1em 0;
-padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 ul {
@@ -35,9 +35,102 @@ ul {
 }
 
 .text-shadow {
-text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .hidden{
-display: none;
+  display: none;
+}
+
+.hero-overlay {
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navlink {
+  cursor: pointer;
+  border: 1px solid #2E2E2E;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  line-height: 43px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  background-color: #424242;
+  padding: 0 2.5rem;
+  text-decoration: none;
+  opacity: 1;
+  font-size-adjust: 0.42;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navlink:hover {
+  color: #FFF;
+  background-color: #2E2E2E;
+  text-decoration: none;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.intro-divider {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  font-size: 2em;
+  font-weight: 100;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-message>p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+
+nav.intro-social-buttons>span {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+nav.intro-social-buttons>span:last-child {
+    margin-bottom: 0;
+}
+
+.intro-divider {
+    width: 100%;
+}
+}
+
+.network-name {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
