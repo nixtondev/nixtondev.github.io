@@ -134,3 +134,7 @@ nav.intro-social-buttons>span:last-child {
   font-weight: 400;
   letter-spacing: 2px;
 }
+
+#app {
+    text-align: center;
+}
