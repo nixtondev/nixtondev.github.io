@@ -1,3 +1,11 @@
-const currentYear = new Date().getFullYear();
-const copyrightText = "&copy; nixton.dev 2020 - ${currentYear} ";
-document.write(copyrightText);
+var copy = "&copy;";
+var author = " nixton.dev";
+
+function getCopy(year){
+  
+document.write(copy);
+document.write(author);
+//document.write(year, ' - ');
+document.write(new Date().getFullYear());
+  
+}
