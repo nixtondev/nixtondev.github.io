@@ -147,3 +147,7 @@ nav.intro-social-buttons>span:last-child {
 .bio {
  font-style: italic;
 }
+
+.copyright{
+    text-align: center;
+}
