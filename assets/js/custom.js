@@ -1,5 +1,5 @@
 var copy = "&copy;";
-var author = " nixton.dev";
+var author = " nixton.dev ";
 
 function getCopy(year){
   
