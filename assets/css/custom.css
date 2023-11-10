@@ -155,3 +155,8 @@ nav.intro-social-buttons>span:last-child {
 .num{
 text-align: center;
 }
+
+.dark-mode{
+    color: #FFF;
+    background-color: #333;
+}
