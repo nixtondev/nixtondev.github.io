@@ -6,7 +6,8 @@ html{
 
 body{
     font-family: Consolas, monaco, monospace;
-    background-color: #eee;
+    background-color: #123;
+    color: #fff;
 }
 
 textarea{
