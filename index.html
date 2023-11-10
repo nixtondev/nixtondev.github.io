@@ -48,7 +48,6 @@
 <span class="">Sweden</span>
 </nav>
 <h1 class="title">NIXTONDEV</h1>
- <button id="darkModeToggle">Dark</button>
  <span class="num">7450325</span>
 <nav class="links">
 <span class=""><i class="fa fa-terminal fa-2x" aria-hidden="true"></i></span> &mdash;
@@ -60,34 +59,6 @@
  <p class="bio">I'am heavy linux user, I like hack things, Write code and building stuffs.</p>
  <p class="copyright"><script>getCopy("2020");</script></p>
 </div>
-
-<script>
-    const darkModeToggle = document.getElementById("darkModeToggle");
-    const body = document.body;
-
-    if (localStorage.getItem("darkMode") === "enabled") {
-        enableDarkMode();
-    }
-
-    darkModeToggle.addEventListener("click", () => {
-        if (body.classList.contains("dark-mode")) {
-            disableDarkMode();
-        } else {
-            enableDarkMode();
-        }
-    });
-
-    function enableDarkMode() {
-        body.classList.add("dark-mode");
-        localStorage.setItem("darkMode", "enabled");
-    }
-
-    function disableDarkMode() {
-        body.classList.remove("dark-mode");
-        localStorage.setItem("darkMode", "disabled");
-    }
-</script>
-
 <script charset="utf-8" src="/assets/js/age.js"></script>
 </body>
 </html>
